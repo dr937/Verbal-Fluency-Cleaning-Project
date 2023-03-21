@@ -4,7 +4,9 @@ Created on Tue Feb 22 12:32:36 2022
 
 @author: david
 """
-
+"""
+Code used to automatically extract id's and dates from given verbal fluency files.
+"""
 import os
 import pandas as pd
 
