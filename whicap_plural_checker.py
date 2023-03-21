@@ -103,10 +103,12 @@ Line by Line, this code does the following:
     2) Applies the function above to the entire excel sheet.
     3) Exports the processed data frame into a new excel sheet.
 """
-item_level_data_df = pd.read_csv('Project1_Data.csv')
+#This line would include the original csv from which data is being extracted
+item_level_data_df = pd.read_csv('')
 
 #data_df_copy = item_level_data_df.copy()
 
 finalized_df = item_level_data_df.applymap(lambda x: grammar_singularize(x), na_action='ignore')
 
-finalized_df.to_csv(r'C:\Users\david\PROJECTS\Item-Level Data Project - WHICAP\Lok-Kin(processed).csv', header=True)
+#This line would inclue the filepath to the new document with the processed data
+finalized_df.to_csv(r'', header=True)
