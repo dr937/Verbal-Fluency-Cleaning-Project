@@ -9,10 +9,12 @@ Output: An array of all files with incorrect formatting.
 
 @author: david
 """
-
+"""
+Simple companion code to folder-to-excel that verifies that all files are formatted appropriately for both the aforementioned code and any future automtion purposes
+"""
 import os
 
-files = os.listdir(r'C:\Users\david\PROJECTS\Item-Level Data Project - WHICAP\Verbal Fluency English AT')
+files = os.listdir(r'')
 
 check_files = []
 
