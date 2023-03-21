@@ -10,7 +10,7 @@ Code used to automatically extract id's and dates from given verbal fluency file
 import os
 import pandas as pd
 
-files = os.listdir(r'C:\Users\david\PROJECTS\Item-Level Data Project - WHICAP\Verbal Fluency English AT')
+files = os.listdir(r'')
 
 ids = []
 dates = []
